@@ -1,20 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
+
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/924/924514.png">
     <title>Coffee Website</title>
 </head>
+
 <body>
-   
-    
+    <div class="container">
+        <header>
+            <div class="nav">
+                <div class="leftnav">
+                    <a href="#">☕ Coffee</a>
+                </div>
+                <div class="rightnav">
+                    <ul>
+                        <a href="#">Home</a>
+                        <a href="#About">About</a>
+                        <a href="#Menu">Menu</a>
+                        <a href="#Testimonials">Testimonial</a>
+                        <a href="#">Gallery</a>
+                        <a href="#">Contact</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="hero">
+                <div class="lefthero">
+                    <h1>Best Coffee</h1>
+                    <h2>Make your day great with our special coffee!</h2>
+                    <p>Welcome to our coffee paradise where every bean tells a story and every cup sparks joy.</p>
+                    <div class="buttons">
+                        <a href="#">Order Now</a>
+                        <a href="#">Contact US</a>
+                    </div>
+                </div>
+                <div class="righthero">
+                    <img src="./images/coffee-hero-section.png" alt="">
+                </div>
+
+            </div>
+
+
+        </header>
+        <section id="About">
+            <div class="leftabout">
+                <img src="./images/about-image.jpg" alt="">
+            </div>
+            <div class="rightabout">
+                <div class="aboutus">
+                    <h1>ABOUT US</h1>
+                    <div class="underline"></div>
+                </div>
+
+                <p>At coffee House in Lucknow, UttarPardesh ,We pride ourselves
+                    on being a go-to destination for coffee lovers and conversation seeker alike.
+                    we're dedicated to provide on execeptional coffee experience in a cozy and inviting atmosphere where
+                    guests can relax, unwind, and enjoy their time in comfort.
+                </p>
+
+                <ul>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+
+                </ul>
+            </div>
+
+
+        </section>
+
+        <section id="Menu">
+            <div class="menu-heading">
+                <div class="aboutus">
+                    <h1>OUR MENU</h1>
+                    <div class="underline"></div>
+                </div>
+
+            </div>
+            <div class="menus">
+                <div class="foods">
+                    <img src="./images//hot-beverages.png" alt="img">
+                    <h2>Hot Beverages</h2>
+                    <p>Wide range of Straming hot coffee to make you fresh and light.</p>
+
+                </div>
+                <div class="foods">
+                    <img src="./images/cold-beverages.png" alt="img">
+                    <h2>Cold Beverages</h2>
+                    <p>Creamy and frothy cold coffee to make you cool.</p>
+                </div>
+                <div class="foods">
+                    <img src="./images/refreshment.png" alt="img">
+                    <h2>Refreshment</h2>
+                    <p>Fruit and icy refreshing drink to make feel refresh..</p>
+
+                </div>
+                <div class="foods">
+                    <img src="./images//special-combo.png" alt="img">
+                    <h2>Special Combos</h2>
+                    <p>Your favourite eating and drinking combations.</p>
+
+                </div>
+                <div class="foods">
+                    <img src="./images/burger-frenchfries.png" alt="img">
+                    <h2>Burger & Fresh Fries</h2>
+                    <p>Quick bites to satify you small size hunger.</p>
+
+                </div>
+                <div class="foods">
+                    <img src="./images//desserts.png" alt="img">
+                    <h2>Dessert</h2>
+                    <p>Satitie your palate and take you on a culinary treat.</p>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="Testimonials">
+            <div class="test-heading">
+
+                <h1>TESTIMONIALS</h1>
+                <div class="underline"></div>
+
+
+
+            </div>
+
+            <div class="slider-container">
+                <div class="slider-wrapper swiper">
+                    <ul class="testimonials-list swiper-wrapper">
+                        <li class="testimonial swiper-slide">
+                            <img src="./images/user-1.jpg" alt="Sarah Johnson" class="user-image">
+                            <h3 class="name">Sarah Johnson</h3>
+                            <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order
+                                again!"</i>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="./images/user-2.jpg" alt="James Wilson" class="user-image">
+                            <h3 class="name">James Wilson</h3>
+                            <i class="feedback">"Great espresso blend! Smooth and bold flavor."</i>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="./images/user-3.jpg" alt="Michel Brown" class="user-image">
+                            <h3 class="name">Michel Brown</h3>
+                            <i class="feedback">"Fantastic mocha flavor. Fresh and aromatic. Quick shipping!"</i>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="./images/user-4.jpg" alt="Emily Harris" class="user-image">
+                            <h3 class="name">Emily Harris</h3>
+                            <i class="feedback">"Excellent quality! Fresh beans and quick delivery. Highly
+                                recommend!"</i>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="./images/user-5.jpg" alt="Anthony Thompson" class="user-image">
+                            <h3 class="name">Anthony Thompson</h3>
+                            <i class="feedback">"Best decaf I've tried! Smooth and flavorful. Arrived timely!"</i>
+                        </li>
+                    </ul>
+                    <!-- Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Navigation Buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
 
 
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/6dad3edd6d.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
