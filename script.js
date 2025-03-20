@@ -12,17 +12,17 @@ const swiper = new Swiper('.slider-wrapper', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-    breakpoints:{
-        0:{
-            sliderPerView:1
-        },
-        768:{
-            sliderPerView:2
-        },
-        1024:{
-            sliderPerView:3
-        },
-    }
+    // breakpoints:{
+    //     0:{
+    //         slidesPerView:1
+    //     },
+    //     768:{
+    //         slidesPerView:2
+    //     },
+    //     1024:{
+    //         slidesPerView:3
+    //     },
+    // }
   
     // And if we need scrollbar
  
